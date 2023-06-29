@@ -25,8 +25,15 @@
 }
 
 .banner {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Restau-gastro.jpeg');
-    height: 1200px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Restau-gastro.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .btn-order {
